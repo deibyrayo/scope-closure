@@ -41,7 +41,7 @@ localScopeExample();
 // console.log(localVar); // Uncaught ReferenceError: localVar is not defined
 ```
 
-##Variable Declaration: const, let, and var
+## Variable Declaration: const, let, and var
 `var` is function-scoped and can be re-declared and updated.
 
 ```javascript
