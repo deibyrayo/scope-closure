@@ -84,7 +84,7 @@ function constExample() {
 constExample();
 ```
 
-----
+---
 
 ## Closures
 A closure is a function that retains access to its lexical scope even when the function is executed outside that scope.
