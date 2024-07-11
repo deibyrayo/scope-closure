@@ -84,8 +84,6 @@ function constExample() {
 constExample();
 ```
 
----
-
 ## Closures
 A closure is a function that retains access to its lexical scope even when the function is executed outside that scope.
 
@@ -101,8 +99,6 @@ myClosure(); // I am a closure
 ```
 
 Closures are powerful because they allow you to encapsulate and protect variables from being accessed or modified from outside their intended scope.
-
----
 
 ## Conclusion
 Understanding scope and closures in JavaScript is crucial for writing efficient and bug-free code. By mastering these concepts, you can take full advantage of JavaScript's unique capabilities and write more robust and maintainable code.
