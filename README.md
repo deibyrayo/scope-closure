@@ -55,7 +55,6 @@ function varExample() {
 }
 varExample();
 ```
-----
 
 `let` is block-scoped and can be updated but not re-declared within the same block.
 
@@ -70,8 +69,6 @@ function letExample() {
 }
 letExample();
 ```
-
-----
 
 `const` const is block-scoped, cannot be updated or re-declared, and must be initialized at declaration.
 
