@@ -26,7 +26,8 @@ var globalVar = "I am global";
 function showGlobalVar() {
   console.log(globalVar); // I am global
 }
-showGlobalVar();```
+showGlobalVar();
+```
 
 ## Local Scope
 Variables declared within a function have local scope, meaning they can only be accessed within that function.
@@ -37,7 +38,8 @@ function localScopeExample() {
   console.log(localVar); // I am local
 }
 localScopeExample();
-// console.log(localVar); // Uncaught ReferenceError: localVar is not defined```
+// console.log(localVar); // Uncaught ReferenceError: localVar is not defined
+```
 
 ##Variable Declaration: const, let, and var
 `var` is function-scoped and can be re-declared and updated.
@@ -51,7 +53,8 @@ function varExample() {
   }
   console.log(x); // 2
 }
-varExample();```
+varExample();
+```
 ----
 
 `let` is block-scoped and can be updated but not re-declared within the same block.
@@ -65,7 +68,8 @@ function letExample() {
   }
   console.log(x); // 1
 }
-letExample();```
+letExample();
+```
 
 ----
 
@@ -80,11 +84,12 @@ function constExample() {
   }
   console.log(x); // 1
 }
-constExample();```
+constExample();
+```
 
 ----
 
-##Closures
+## Closures
 A closure is a function that retains access to its lexical scope even when the function is executed outside that scope.
 
 ```javascript
@@ -95,7 +100,8 @@ function createClosure() {
   }
 }
 const myClosure = createClosure();
-myClosure(); // I am a closure```
+myClosure(); // I am a closure
+```
 
 Closures are powerful because they allow you to encapsulate and protect variables from being accessed or modified from outside their intended scope.
 
